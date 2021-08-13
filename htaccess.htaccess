@@ -6,5 +6,5 @@
  # Remove .html from URL
  RewriteRule ^(.*)\.html /$1 [L,R=301,NC]
 
- # Redirect to ru.html
+ # Redirect to ru
  DirectoryIndex ru
